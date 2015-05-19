@@ -27,3 +27,11 @@ Times below are an approximation
 
 - Complete Secret Number Exercise
 - Review Git Resources provided on git_notes.md 
+
+###Resources (highly recommended!):
+* Basic MVC concept we'll be covering Wednesday. Try to digest what you can, and you'll have a head start next class:
+  [3:43] https://www.youtube.com/watch?v=3mQjtk2YDkM
+
+  * Model - handles the data, similar to what we've been doing. Example would be the apartment lab where we handled renters, apartments and buildings data. (ActiveRecord)
+  * View - what the user sees on their webpage. (ActionView)
+  * Controller - behavior between the model and the view. (ActionController)
