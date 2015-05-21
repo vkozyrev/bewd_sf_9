@@ -41,3 +41,5 @@ This lesson is all about developing a high level  understanding of how Rails wor
 * [Rails for Zombies](https://www.codeschool.com/courses/rails-for-zombies-redux)
 
 * Five minute [video](http://www.youtube.com/watch?v=7_LPdttKXPc) on how the internet works.
+
+* Rails database info: [Object Relational Mapping (ORM): ActiveRecord Basics](http://guides.rubyonrails.org/active_record_basics.html)
