@@ -9,7 +9,7 @@ class Thermostat
     @temperature = temperature
   end
 
-  #instance method 
+  #instance method
   def get_desired_temperature(target_temp)
     if @temperature >  target_temp + 5
       turn_off_heater(@temperature)

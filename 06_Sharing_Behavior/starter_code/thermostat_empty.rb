@@ -12,11 +12,20 @@ class Thermostat
 
   #instance method
   def get_desired_temperature(target_temp)
+    if @temperature >= target_temp
+      puts "My temperature is #{@temperature}. Hurray!"
+    else
+      puts "My temperature is #{@temperature}. Boooo!!!!"
+    end
   end
   ####
 
   #class method
   def self.detect_temperature(all_temps, target_temp)
+    all_temps.each do |reading|
+      r = Thermostat.new(reading)
+      r.get_desired_temperature(target_temp)
+    end
   end
 
  private

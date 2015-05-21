@@ -39,9 +39,9 @@
 # Tips: Copy paste your code from homework 1 where necessary.
 require 'pry'
 require 'pry-byebug'
-require_relative 'lib/game'
-require_relative 'lib/person'
-require_relative 'lib/secret_number'
+require_relative 'game'
+require_relative 'person'
+require_relative 'secret_number'
 
 # put code here print a welcome message for your user
 

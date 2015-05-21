@@ -1,3 +1,6 @@
+require 'pry'
+require 'pry-byebug'
+
 #Building Class
 class Building
   attr_accessor :name, :address, :apartments
