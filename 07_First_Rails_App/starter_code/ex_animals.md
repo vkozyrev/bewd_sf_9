@@ -15,7 +15,7 @@
 *	Create a new application called rails_animals.
 *	Create a rails scaffold and run the server:
 ``` bash
-> rails generate scaffold Animals name:string size:string
+> rails generate scaffold Animals name:string animal_type:string breed:string age:integer
 > rake db:migrate
 > rails server
 ```

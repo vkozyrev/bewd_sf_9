@@ -1,7 +1,4 @@
-![BEWD_Logo](../assets/BEWD_Logo.png)
-
-
-##Lesson 7: MY FIRST RAILS APP
+BEWD - ##Lesson 7: MY FIRST RAILS APP
 
 
 ###Learning Objectives
