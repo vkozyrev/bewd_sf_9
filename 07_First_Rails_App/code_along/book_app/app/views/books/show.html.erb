@@ -1,5 +1,8 @@
 <p id="notice"><%= notice %></p>
+<p>
+  <%=image_tag(@book.book_url, size: '200x200') %>
 
+</p>
 <p>
   <strong>Title:</strong>
   <%= @book.title %>
@@ -10,10 +13,6 @@
   <%= @book.author %>
 </p>
 
-<p>
-  <strong>Book url:</strong>
-  <%= @book.book_url %>
-</p>
 
 <p>
   <strong>Price:</strong>
