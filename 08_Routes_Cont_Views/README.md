@@ -36,3 +36,4 @@ At the end of this lesson you should be able to describe the flow of control in 
 *	[Rails Guides to Routes](http://guides.rubyonrails.org/routing.html)
 *	[Routes to Controller Tutorial](http://darynholmes.wordpress.com/2008/03/15/beginners-tutorial-routing-in-rails-20-with-rest-part-1-of-n/)
 *	[More Routes Resources](http://everydayrails.com/2010/07/18/understanding-rest-and-routes.html)
+* Beef up your Ruby knowledge with videos from [New Boston](https://www.thenewboston.com/videos.php?cat=50&video=19016) (Skip around as you see fit)
