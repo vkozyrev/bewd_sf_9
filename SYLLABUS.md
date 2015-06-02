@@ -19,7 +19,7 @@ Lesson Topics WILL change as the course progresses.
 | 7 | Framework Intro | MVC Overview| Wed. 05/20/2015|
 | - | Holiday | Memorial Day | Mon. 05/25/2015
 | 8 | Under The Hood| Routes & Controller | Wed. 05/27/2015|
-| 9 | Under The Hood | View & Controller Continued| Mon. 06/01/2015 |
+| 9 | Under The Hood | Project Proposal Workshop| Mon. 06/01/2015 |
 | 10 | Under The Hood| Model: The Basics & Schema Design| Wed. 06/03/2015 |
 | 11 | Under The Hood| Model: Associations & Validations | Mon. 06/08/2015 |
 | 12 | Essentials| FEND: Views, Forms & Bootstrap Integration| Wed. 06/10/2015|

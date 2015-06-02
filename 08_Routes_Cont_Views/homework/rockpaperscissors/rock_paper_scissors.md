@@ -1,13 +1,6 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Exercise_icon_md.png)
 
-
 ##Rock Paper Scissors
-
-####Time: 60 min
-
-###Activity Type: Pair Programming
-
-####Task Instructions
 
 Here are two screen shots to help you style the views.
 
@@ -25,10 +18,7 @@ Here are two screen shots to help you style the views.
 
 *	Compare the two choices! If the user's throw matches the app's throw, the user wins. If both are same, show a tie. Otherwise, show a loss message.
 
-*	__Bonus__: Refactor the application so that it uses the real [rules of rock paper scissors](http://en.wikipedia.org/wiki/Rock-paper-scissors). 
+*	__Bonus__: Refactor the application so that it uses the real [rules of rock paper scissors](http://en.wikipedia.org/wiki/Rock-paper-scissors).
 
 
 We've provided the [images](images/) folder.
-
-
-
