@@ -1,0 +1,13 @@
+<h1>Welcome to Secret Number</h1>
+
+<p>To play this game, all you have to do is guess a number. if you guess the <em>secret number</em>, you win! </p>
+
+<p>Choose carefully, You only get one try!</p>
+
+<h1>Pick a Number</h1>
+
+<ul>
+	<% 1.upto(5) do |number| %>
+    <li><%= link_to number, secret_number_path(number) %></li>
+	<% end %>
+</ul>
