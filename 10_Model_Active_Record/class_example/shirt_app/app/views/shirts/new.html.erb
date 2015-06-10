@@ -1,0 +1,7 @@
+<h1>New Shirt</h1>
+<%= form_for @shirt do |f| %>
+  <ul> Name: <%= f.text_field :name %> </ul>
+  <ul> Quantity: <%= f.text_field :quantity %> </ul>
+  <ul> Size: <%= f.text_field :size %> </ul>
+  <ul> <%= f.submit %> </ul>
+<%end %>
