@@ -1,0 +1,5 @@
+<h1>Shirts App</h1>
+
+<% @shirts.each do |shirt| %>
+	<ul><%= link_to "#{shirt.name}", shirt_path(shirt) %></ul>
+<% end %>
