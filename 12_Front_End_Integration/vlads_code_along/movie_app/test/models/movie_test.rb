@@ -8,6 +8,8 @@
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #  year_released :integer
+#  movie_image   :string
+#  available     :boolean
 #
 
 require 'test_helper'
