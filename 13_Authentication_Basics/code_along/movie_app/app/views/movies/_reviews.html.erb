@@ -1,0 +1,11 @@
+  <h3> Reviews   <%=link_to "Add Review", new_review_path(movie:@movie), class: 'btn btn-danger btn-xs'%>
+    <!-- <small> <%= @reviews.count %>  reviews</small> -->
+  </h3>
+  <div class="panel-body">
+
+   <% @reviews.each do |review| %>
+   <ol>
+    <%=review.rating %> | <%=review.body %>
+  </ol>
+    <% end %>
+  </div>

@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+
+  <div class="panel-heading">
+    <h1> <%= movie_name %>  </h1>
+  </div>
+
+  <div class="panel-body">
+    <%= simple_form_for @review do |f| %>
+    <%=f.input :body, label: false, placeholder: "Add Review"%>
+    <%=f.input :rating %>
+    <%=f.hidden_field :movie_id , value: params[:movie] %>
+    <%=f.submit "Review".html_safe, class: 'btn btn-lg btn-success' %>
+    <% end %>
+  </div>
