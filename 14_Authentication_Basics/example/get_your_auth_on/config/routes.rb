@@ -3,16 +3,16 @@ Rails.application.routes.draw do
   resources :photos
 
   get 'pictyo' => "static_pages#pictyo", as: "pictyo"
-  
+
   devise_for :users
 
- #devise wiki on overrides 
+ #devise wiki on overrides
   devise_scope :user do
     get "/sign_in" => "devise/sessions#new", as: "sign_in"
     delete "/sign_out" => "devise/sessions#destroy", as: "sign_out"
     get "sign_up" => "devise/registrations#new", as: "sign_up"
   end
-  
+
   resources :users, only: [:show, :index]
   root 'static_pages#home'
 
