@@ -1,0 +1,32 @@
+<div class="col-md-12">
+  <div class="table-responsive">
+    <h1 style="color:#666666;">Our Cool Movies </h1>
+
+    <table class="table table-hover">
+
+      <!-- This is a table row with headers -->
+      <tr class="small">
+        <th> Movie Image </th>
+        <th> Title </th>
+        <th> Description</th>
+        <th> Year Released </th>
+        <th> Actions </th>
+      </tr>
+
+        <% @movies.each do |movie| %>
+        <tr class="small">
+          <td class="col-md-2"> <%= image_tag(movie.movie_image, :class => 'img-thumbnail img-rounded img-responsive') unless movie.movie_image.nil? %> </td>
+
+          <td> <%= movie.title %>  </td>
+          <td> <%= movie.description %> </td>
+          <td> <%= movie.year_released %> </td>
+          <td>
+            <%=link_to 'Show', movie_path(movie), class: "btn btn-default btn-xs" %>
+            <%= link_to "Edit", edit_movie_path(movie), class: "btn btn-success btn-xs"%>
+            <%= link_to "Delete", movie, method: :delete, data: {confirm: "You sure homey?"}, class: 'btn btn-xs btn-danger' %>
+          </td>
+       </tr>
+        <% end %>
+    </table>
+  </div>
+</div>

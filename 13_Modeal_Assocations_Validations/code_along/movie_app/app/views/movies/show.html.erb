@@ -1,0 +1,23 @@
+<div class="row-fluid">
+  <div class="panel panel-default">
+  <div class="col-md-6">
+    <%=image_tag(@movie.movie_image, class: "img-responsive thumbnail") %>
+  </div>
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1> <%= @movie.title.titleize %>
+          <%=link_to "All Movies", movies_path, class: 'btn btn-default btn-xs'%>
+        </h1>
+      </div>
+      <div class="panel-body">
+        <p> <%= @movie.description %> </p>
+      </div>
+
+      <%= render 'reviews' %>
+
+    </div>
+  </div>
+
+</div>
